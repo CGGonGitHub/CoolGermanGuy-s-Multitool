@@ -1,0 +1,28 @@
+{
+    "name": "General",
+    "macros": [
+        {
+            "info": {
+                "name": "spam e",
+                "activationMethod": "repeatWhileHolding",
+                "activationKey": "F2"
+            },
+            "sequence": [
+                { "type": "key_press", "input": "E" }
+            ]
+        },
+        {
+            "info": {
+                "name": "write signature",
+                "activationMethod": "noRepeat",
+                "activationKey": "VK_XBUTTON1"
+            },
+            "sequence": [
+                { "type": "key_press", "input": "C" },
+                { "type": "key_press", "input": "G" },
+                { "type": "key_press", "input": "G" },
+                { "type": "key_press", "input": "ENTER" }
+            ]
+        }
+    ]
+}
